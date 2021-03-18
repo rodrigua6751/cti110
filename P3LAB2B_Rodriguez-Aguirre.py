@@ -1,0 +1,36 @@
+import turtle
+
+wn = turtle.Screen()
+allan = turtle.Turtle()
+allan.color("blue")
+allan.pensize(4)
+
+allan.left(60)
+allan.forward(100)
+allan.right(60)
+allan.right(60)
+allan.forward(100)
+allan.backward(50)
+allan.right(120)
+allan.forward(50)
+
+allan.penup()
+allan.right(180)
+allan.forward(100)
+allan.right(90)
+allan.forward(45)
+allan.right(180)
+allan.pendown()
+
+allan.forward(90)
+allan.backward(45)
+allan.right(90)
+allan.forward(17.5)
+allan.circle(22.5, 180)
+allan.forward(17.5)
+allan.left(90)
+allan.forward(45)
+allan.left(45)
+allan.forward(65)
+
+wn.mainloop()
