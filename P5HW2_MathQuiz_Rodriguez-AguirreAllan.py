@@ -16,7 +16,7 @@ def add_num():
     print('+ ', random_num2)
     print()
     count = 1
-    guess = int(eval(input('Enter answer.\n')))
+    guess = int(input('Enter answer.\n'))
     while guess != solution:
         if guess > solution:
             print('Sorry, guess is too high.')
